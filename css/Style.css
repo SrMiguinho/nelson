@@ -1,0 +1,238 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(186, 223, 255);
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/restaurant.png);
+  color: rgb(255, 255, 255);
+}
+h1 {
+  font-size: 90px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 100px;
+}
+
+/*Cabeçalho*/
+.ca {
+  width: 100%;
+  margin: 0px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+}
+.coluna {
+  font-size: 30px;
+  font-weight: bold;
+}
+.banaan h1 {
+  font-size: 110px;
+}
+.texti {
+  font-size: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  height: 500px;
+  margin-left: 180px;
+}
+.box {
+  font-size: 45px;
+}
+.apresentação {
+  margin-top: 100px;
+  font-size: 30px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 80px;
+}
+.pill {
+  width: 400px;
+  height: 500px;
+  animation: capaa 2s ease-out 0s 1 forwards;
+}
+.pill:hover {
+  animation: capaa-rev 0.54s ease-in 0s 1 forwards;
+}
+
+@keyframes capaa {
+  0% {
+    filter: grayscale(0%);
+  }
+  100% {
+    filter: grayscale(100%);
+  }
+}
+@keyframes capaa-rev {
+  0% {
+    filter: grayscale(100%);
+  }
+  100% {
+    filter: grayscale(0%);
+  }
+}
+.nm {
+  font-size: 30px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 80px;
+}
+.nelson {
+  width: 600px;
+  height: 500px;
+}
+.textox {
+  font-size: 35px;
+  display: flex;
+  margin-right: 90px;
+  margin-left: 105px;
+  margin-top: 50px;
+  margin-bottom: 45px;
+  justify-content: space-between;
+  align-items: center;
+  width: 1250px;
+}
+.compri {
+  width: 400px;
+  height: 450px;
+  margin-right: 80px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: rgb(100, 180, 218);
+  text-decoration: underline;
+  font-family: cursive;
+  transition: color 0.4s ease-in-out;
+  font-size: 27px;
+}
+.apres {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
+  margin-left: 80px;
+}
+.apres h1:hover {
+  color: rgb(248, 236, 127);
+  transition: color 1s ease-in-out;
+}
+.comp {
+  display: flex;
+  justify-content: center;
+}
+.cell {
+  background-color: transparent;
+  font-size: 55px;
+}
+.cell td {
+  background-color: transparent;
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 6px;
+}
+table {
+  margin: auto;
+  padding: 100px;
+}
+.indi h1 strong span {
+  display: inline-block;
+  color: aliceblue;
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: -15px;
+  line-height: 1;
+  animation: shu-rev 1s ease-in 0s 1 forwards;
+  font-size: 100px;
+}
+
+.indi h1 strong span:hover {
+  animation: shu 1s ease-out 0s 1 forwards;
+}
+
+@keyframes shu {
+  0% {
+    color: aliceblue;
+  }
+  100% {
+    color: gold;
+    text-shadow: 0 0 25px rgb(255, 255, 255), 0 0 25px white, 0 0 25px white,
+      0 0 25px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255);
+  }
+}
+@keyframes shu-rev {
+  0% {
+    color: gold;
+    text-shadow: 0 0 25px rgb(255, 255, 255), 0 0 25px white, 0 0 25px white,
+      0 0 25px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255);
+  }
+  100% {
+    color: aliceblue;
+  }
+}
+.tet {
+  padding: 30px;
+  font-size: 55px;
+  margin: 40px;
+}
+.nino {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 2;
+  font-size: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.mama {
+  width: 500px;
+  margin-left: 60px;
+  margin-right: 120px;
+  border: 10px solid white;
+}
+.contri {
+  font-size: 55px;
+  margin-left: 90px;
+}
+.contri span {
+  color: crimson;
+}
+.aoa {
+  line-height: 2;
+  font-size: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-bottom: 90px;
+}
+.map {
+  font-size: 45px;
+  padding: 15px;
+}
+.mop {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+#model-container {
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+}
+canvas {
+  display: block;
+}
