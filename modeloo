@@ -7,8 +7,7 @@
   </head>
 
   <body>
-    
-    <canvas class="model_canvas" id="dorga.glb"></canvas>
+    <canvas class="model_canvas" id="{{ canvas_id }}"></canvas>
   </body>
   <!-- Canvas Element to contain model -->
 
