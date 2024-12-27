@@ -8,7 +8,7 @@
 
   <body>
     
-    <canvas class="model_canvas" id="dorga.gbl"></canvas>
+    <canvas class="model_canvas" id="dorga.glb"></canvas>
   </body>
   <!-- Canvas Element to contain model -->
 
