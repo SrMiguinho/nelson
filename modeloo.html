@@ -12,6 +12,11 @@
         height: 100%;
       }
 
+      /* Set the body background color to a very dark gray */
+      body {
+        background-color: #1a1a1a; /* Dark gray background */
+      }
+
       /* Make canvas full sized */
       canvas.model_canvas {
         width: 100%;
@@ -53,7 +58,6 @@
         canvas,
       });
       renderer.setClearColor(0x000000, 0); // Clear background
-      // renderer.setClearColor(0x000000); // Black Background
 
       const fov = 45;
       const aspect = 2;
@@ -146,6 +150,11 @@
 
       requestAnimationFrame(render);
     }
+
+    main();
+  </script>
+</html>
+
 
     main();
   </script>
