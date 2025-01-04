@@ -236,8 +236,8 @@ table {
   margin-right: auto;      /* Automatically adjust right margin */
   border: 5px solid white; /* Add a white border around the container */
 }
-canvas {
-  display: block;
-  width: 100%;
+canvas.model_canvas {
+  display: block;          /* Makes the canvas a block-level element */
+  width: 100%;             /* Makes canvas take the full width of the container */
   height: 100%;
 }
