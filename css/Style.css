@@ -231,11 +231,8 @@ table {
 #model-container {
   width: 80%;
   height: 500px;
-  margin-top: 60px;        /* Space from the top */
- /* Add a white border around the container */
+  margin-top: 20px;
 }
-canvas.model_canvas {
-  display: block;          /* Makes the canvas a block-level element */
-  width: 100%;             /* Makes canvas take the full width of the container */
-  height: 100%;
-}
+canvas {
+  display: block;
+} 
