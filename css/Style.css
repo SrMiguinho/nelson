@@ -93,20 +93,38 @@ h1 {
   height: 500px;
 }
 .textox {
-  font-size: 35px;
+  font-size: clamp(1rem, 2vw, 35px); /* Responsive font size */
   display: flex;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 50px;
-  margin-bottom: 45px;
-  justify-content: space-between;
-  align-items: center;
-  width: 1250px;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  margin: 50px auto 45px auto; /* Centers the container */
+  padding: 0 15px; /* Adds internal spacing */
+  justify-content: space-between; /* Aligns children with space in between */
+  align-items: center; /* Centers content vertically */
+  max-width: 1250px; /* Ensures the container doesn't exceed this width */
+  width: 100%; /* Makes the container adapt to the viewport */
+  box-sizing: border-box; /* Prevents overflow due to padding */
 }
 .compri {
   width: 400px;
   height: 450px;
   margin-right: 80px;
+}
+.textox p {
+  flex: 1; /* Ensures the paragraph takes up remaining space */
+  margin-left: 20px; /* Adds space between the image and text */
+  word-wrap: break-word; /* Ensures text wraps properly */
+}
+
+@media (max-width: 768px) {
+  .textox {
+    flex-direction: column; /* Stacks content vertically */
+    text-align: center; /* Centers text */
+  }
+
+  .textox p {
+    margin-left: 0; /* Removes margin when stacked vertically */
+    margin-top: 20px; /* Adds space above text */
+  }
 }
 a {
   color: black;
