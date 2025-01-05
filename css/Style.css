@@ -14,7 +14,7 @@ h1 {
 
 /*Cabeçalho*/
 .ca {
-  width: 99%;
+  width: 100%;
   margin: 0px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
@@ -24,6 +24,7 @@ h1 {
   justify-content: space-around;
   align-items: center;
   padding: 5px;
+  box-sizing: border-box;
 }
 .coluna {
   font-size: 30px;
