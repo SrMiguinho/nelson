@@ -94,6 +94,7 @@ h1 {
 }
 .textox {
   display:flex;
+  font-size:35px;
   width: 400px;
   height: 450px;
   margin-right: 80px;
