@@ -95,8 +95,8 @@ h1 {
 .textox {
   font-size: 35px;
   display: flex;
-  margin-right: 120px;
-  margin-left: 105px;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 50px;
   margin-bottom: 45px;
   justify-content: space-between;
