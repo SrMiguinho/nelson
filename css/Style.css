@@ -1,4 +1,6 @@
 body {
+  transform: scale(0.9);
+  transform-origin: top left;
   margin: 0px;
   padding: 0px;
   background-color: rgb(186, 223, 255);
